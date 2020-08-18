@@ -4,9 +4,9 @@ main()
 	int x;
 	printf("Enter a Number");
 	scanf("%d",&x);
-	if((x&1)==1) 
+	if(x%2 == 0) 
 	   
-		printf("ODD NUMBER");
-	else
 		printf("EVEN NUMBER");
+	else
+		printf("ODD NUMBER");
 }
